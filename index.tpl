@@ -8,7 +8,7 @@
 	%for i in ports:
 	<p>
 	%	for o in lsofs[i]:
-		{{o.split()}}<br>
+		{{o}}<br>
 	%	end
 	</p><br>
 	<a href="killall/{{i}}">Перезагрузить порт {{i}}</a>
